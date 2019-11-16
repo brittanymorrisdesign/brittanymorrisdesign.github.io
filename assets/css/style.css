@@ -6,6 +6,7 @@
 .navbar {
   overflow: hidden;
   background-color: #ffffff;
+  border-bottom: .5px solid #666666;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -19,7 +20,7 @@
 .topnav-right a {
   float: left;
   display: block;
-  color: #808080;
+  color: #777777;
   text-align: center;
   padding: 30px;
   text-decoration: none;
@@ -36,7 +37,7 @@
 .topnav-right {
   float: right;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #333
+  color: #777777
 }
 
 body {
@@ -45,10 +46,9 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
+  color: #777777;
   background-image: url("../images/handmadepaper_@2X.png");
 }
-
 
 header {
   background: #ffffff;
@@ -80,7 +80,7 @@ h2 {
 #bio {
   width: 960px;
   height: 290px;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #dddddd;
   padding: 20px;
   margin: 120px auto;
   background: #ffff;
@@ -110,6 +110,6 @@ footer {
   margin: 0;
   padding-top: 30px;
   height: 35px font-size: small;
-  border-top: 4px solid #4aaaa5;
-  background: #ffffff;
+  border-top: 8px solid #4aaaa5;
+  background: #666666;
 }

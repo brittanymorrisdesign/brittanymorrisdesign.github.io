@@ -2,12 +2,13 @@
 * {
   box-sizing: border-box;
 }
+
 #portfolio {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #808080;
+  color: #777777;
   width: 960px;
   height: 470px;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #dddddd;
   padding: 20px;
   margin: 120px auto;
   background: #ffff;
