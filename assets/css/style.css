@@ -3,91 +3,190 @@
   box-sizing: border-box;
 }
 
+
 /* The navigation bar */
 .navbar {
   width: 100%;
   padding: 0px 0px;
   margin: 0 auto;
   height: 80px;
+  font-size: 18px;
 }
 
 .navbar-brand {
-  color: #ffffff;
-  padding: 15px;
-  text-align: center;
-  font-size: 30px;
-  background-color: #a88e3a;
-  text-decoration: none;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  font-weight: semibold;
+  border: 2px solid white;
+  padding-left: 16px;
+  padding-right: 16px;
+ }
+
+
+.navbar-scroll {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.5s;
+  color: white;
 }
 
-.navbar-brand:hover {
-  text-decoration: none;
-  color: none;
+@media(max-width: 768px){
+    .navbar {background-color: rgba(0, 0, 0, 0.7) !important; }
 }
 
 .container {
-  width: 960px;
+  width: 1000px;
   padding: 0px 0px;
   margin: 0 auto;
 }
 
-/* Content */
+/* Global Styles */
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif font-size: 18px;
-  line-height: 150%;
-  color: #777777;
+  font-family: "Lato", sans-serif;
 }
 
-.container-fluid-2 {
-  padding-top: 10px;
-  max-width: 1500px;
-  width: 960px;
-  text-align: center;
-  padding: 0px 0px;
-  margin: 0 auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Mada', sans-serif;
+  letter-spacing: 0.1rem;
 }
 
-.row {
-  padding-top: 15px;
-  padding-bottom: 100px;
+h1 {
+  font-weight: 600;
 }
 
-.jumbotron-fluid {
-  height: 300px;
-  background-image: url("../images/papyrus-dark.png");
+h3 {
+  font-weight: 600;
 }
 
-.display-4 {
-  padding-top: 40px;
-  color: #ffffff;
-  text-align: center;
+.heading-text {
+  font-size: 4em;
 }
 
-.lead {
-  color: #7d682f;
-  text-align: center;
+section {
+  padding: 5em 0;
 }
 
-.col-sm-8 {
-  margin: 0 auto;
-  padding-bottom: 100px;
+.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.card-body {
-  text-align: center
+
+/* Masthead Styles */
+header.masthead {
+  position: relative;
+  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-header.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 6em 0;
 }
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding: 11em 0;
+  }
+}
+
+header.masthead .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  opacity: 0.7;
+}
+
+/* Services Section */
+section.services {
+  position: relative;
+  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-services.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.services .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  opacity: 0.7;
+}
+
+.services .service-icon {
+  height: 7em;
+}
+
+.services .service-icon i {
+  font-size: 5em;
+}
+
+.services .service-icon i:hover {
+  font-size: 6em;
+}
+
+/* Portfolio Section */
+section.portfolio {
+  padding-bottom: 0;
+}
+
+.portfolio-header {
+  margin-bottom: 5em;
+}
+
+.portfolio .portfolio-image {
+  min-height: 30rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.portfolio .item-1 {
+  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-showcase-1.jpg");
+}
+
+.portfolio .item-2 {
+  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-showcase-2.jpg");
+}
+
+.portfolio .item-3 {
+  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-showcase-3.jpg");
+}
+
+.portfolio .portfolio-text {
+  padding: 8em;
+}
+
+/* Contact Section */
+.contact .contact-icon {
+  height: 7em;
+}
+
+.contact .contact-icon i {
+  font-size: 2em;
+}
+
+.contact .contact-icon i:hover {
+  font-size: 6em;
+}
+
+/* Footer */
+
 
 footer {
-  position: fixed;
-  left: 0;
+  background-color: #E8E8E8;
   bottom: 0;
+  color:white;
   text-align: center;
   width: 100%;
-  padding-bottom: 10px;
-  margin: 0;
-  padding-top: 20px;
-  height: 10px font-size: small;
-  background: #E8E8E8;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  padding-top: 30px;
+  height: 120px;
+  font-size: small;
 }
