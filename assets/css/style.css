@@ -40,9 +40,6 @@
 }
 
 /* Global Styles */
-body {
-  font-family: "Lato", sans-serif;
-}
 
 h1,
 h2,
@@ -63,7 +60,7 @@ h3 {
 }
 
 .heading-text {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 section {
@@ -79,7 +76,7 @@ section {
 /* Masthead Styles */
 header.masthead {
   position: relative;
-  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-header.jpg");
+  background-image: url("../images/papyrus-dark.png");
   background-size: cover;
   background-position: center center;
   padding: 6em 0;
@@ -101,6 +98,10 @@ header.masthead .overlay {
   opacity: 0.7;
 }
 
+.profileImage {
+height:560px;
+
+}
 /* Services Section */
 section.services {
   position: relative;
@@ -119,12 +120,9 @@ section.services {
   opacity: 0.7;
 }
 
-.services .service-icon {
-  height: 7em;
-}
-
-.services .service-icon i {
-  font-size: 5em;
+.fab {
+  padding-top: 70px;
+  padding-right: 30px;
 }
 
 .services .service-icon i:hover {
@@ -175,18 +173,102 @@ section.portfolio {
   font-size: 6em;
 }
 
+.form-group {
+  padding:5px;
+}
+
+.contact-form {
+  padding: 50px;
+  margin: 30px auto;
+}	
+
+.contact-form h1 {
+
+        margin: 0 0 50px;
+        text-align: center;
+    }
+
+    .contact-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .contact-form .form-control, .contact-form .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+
+	.contact-form .form-control {
+
+  }
+  
+	.contact-form .form-control:focus {
+		border-color: none;
+		box-shadow: 0
+  }
+  
+    .contact-form .btn-primary {
+        min-width: 250px;
+        background: #000;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .contact-form .btn-primary:hover {
+        color: #fff; 
+    }
+
+    .contact-form .btn-primary i {
+        margin-right: 5px;
+    }
+
+    .contact-form label {
+        opacity: 0.9;
+    }
+
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+    .bs-example {
+    	margin: 20px;
+    }
+
 /* Footer */
 
 
 footer {
-  background-color: #E8E8E8;
-  bottom: 0;
-  color:white;
-  text-align: center;
+  left: 0;
   width: 100%;
-  padding-bottom: 60px;
-  margin: 0 auto;
-  padding-top: 30px;
-  height: 120px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height:100px;
   font-size: small;
+  
+  background-color: #E8E8E8;
+}
+
+/* Scroll to Top Button */
+button.scroll-top {
+  z-index: 1049;
+  position: fixed;
+  visibility: visible;
+  bottom: 2%;
+  right: 2%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  min-height: 50px;
+  min-width: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+button.scroll-top i {
+  color: #8e9eab;
+}
+
+button.scroll-top:hover, button.scroll-top:focus {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+button.scroll-top:hover i, button.scroll-top:focus i {
+  color: white;
 }
