@@ -60,7 +60,7 @@ h3 {
 }
 
 .heading-text {
-  font-size: 3.5em;
+  font-size:4em;
 }
 
 section {
@@ -162,7 +162,7 @@ section.portfolio {
 
 /* Contact Section */
 .contact .contact-icon {
-  height: 7em;
+  height: 8em;
 }
 
 .contact .contact-icon i {
@@ -196,11 +196,13 @@ section.portfolio {
         min-height: 38px;
         border-radius: 2px;
     }
-
-	.contact-form .form-control {
-
-  }
   
+    input, textarea {
+      outline: none;
+      border:1px solid #ccc !important;
+      box-shadow:none !important;
+      } /*Remove bootstrap blue glow */
+
 	.contact-form .form-control:focus {
 		border-color: none;
 		box-shadow: 0
@@ -235,17 +237,22 @@ section.portfolio {
 
 /* Footer */
 
-
 footer {
-  left: 0;
-  width: 100%;
-  padding-bottom: 10px;
-  padding-top: 20px;
-  height:100px;
-  font-size: small;
-  
+
   background-color: #E8E8E8;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color:white;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 60px;
+  margin: 0;
+  padding-top: 30px;
+  height:70px;
+  font-size: small;
 }
+
 
 /* Scroll to Top Button */
 button.scroll-top {
@@ -271,4 +278,9 @@ button.scroll-top:hover, button.scroll-top:focus {
 
 button.scroll-top:hover i, button.scroll-top:focus i {
   color: white;
+}
+
+.scroll-top, .scroll-top:focus {
+  outline: 0;
+  box-shadow: none!important;
 }
