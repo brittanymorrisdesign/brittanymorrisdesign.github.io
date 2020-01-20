@@ -19,7 +19,7 @@
   border: 2px solid white;
   padding-left: 16px;
   padding-right: 16px;
- }
+}
 
 
 .navbar-scroll {
@@ -28,8 +28,10 @@
   color: white;
 }
 
-@media(max-width: 768px){
-    .navbar {background-color: rgba(0, 0, 0, 0.7) !important; }
+@media(max-width: 768px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+  }
 }
 
 /* Global Styles */
@@ -54,7 +56,7 @@ h3 {
 }
 
 .heading-text {
-  font-size:4em;
+  font-size: 4em;
 }
 
 section {
@@ -87,9 +89,10 @@ header.masthead {
 }
 
 .profileImage {
-height:560px;
+  height: 560px;
 
 }
+
 /* Services Section */
 section.services {
   position: relative;
@@ -178,43 +181,48 @@ section.portfolio {
   margin: 0 auto;
 }
 
-  input, textarea {
-      outline: none;
-      border:1px solid #ccc !important;
-      box-shadow:none !important;
-      } /*Remove bootstrap blue glow */
+input,
+textarea {
+  outline: none;
+  border: 1px solid #ccc !important;
+  box-shadow: none !important;
+}
 
-      
-      form {
-        max-width:420px; 
-        margin:25px;
-      }
-      
-      .feedback-input {
-        color:white;
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight:500;
-        font-size: 18px;
-        border-radius: 5px;
-        line-height: 22px;
-        background-color: transparent;
-        border:2px solid;
-        transition: all 0.3s;
-        padding: 13px;
-        margin-bottom: 15px;
-        width:100%;
-        box-sizing: border-box;
-        outline:0;
-      }
-      
-      .feedback-input:focus { border:2px solid #CC4949; }
-      
-      textarea {
-        height: 150px;
-        line-height: 150%;
-        resize:vertical;
-      }
-      
+/*Remove bootstrap blue glow */
+
+
+form {
+  max-width: 600px;
+  margin: 25px;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
 
 /* Footer */
 
@@ -227,7 +235,7 @@ footer {
   padding-bottom: 10px;
   margin: 0;
   padding-top: 20px;
-  height: 60px; 
+  height: 60px;
   text-align: center;
   font-size: small;
   background: #E8E8E8;
@@ -244,7 +252,7 @@ button.scroll-top {
   visibility: visible;
   bottom: 2%;
   right: 2%;
-  margin-bottom:60px;
+  margin-bottom: 60px;
   border-radius: 50%;
   border: 1px solid transparent;
   min-height: 50px;
@@ -256,15 +264,18 @@ button.scroll-top i {
   color: #8e9eab;
 }
 
-button.scroll-top:hover, button.scroll-top:focus {
+button.scroll-top:hover,
+button.scroll-top:focus {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-button.scroll-top:hover i, button.scroll-top:focus i {
+button.scroll-top:hover i,
+button.scroll-top:focus i {
   color: white;
 }
 
-.scroll-top, .scroll-top:focus {
+.scroll-top,
+.scroll-top:focus {
   outline: 0;
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
