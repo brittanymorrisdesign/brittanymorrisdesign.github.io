@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 /* The navigation bar */
 .navbar {
   width: 100%;
@@ -33,12 +32,6 @@
     .navbar {background-color: rgba(0, 0, 0, 0.7) !important; }
 }
 
-.container {
-  width: 1000px;
-  padding: 0px 0px;
-  margin: 0 auto;
-}
-
 /* Global Styles */
 
 h1,
@@ -53,6 +46,7 @@ h6 {
 
 h1 {
   font-weight: 600;
+  text-align: center;
 }
 
 h3 {
@@ -76,26 +70,20 @@ section {
 /* Masthead Styles */
 header.masthead {
   position: relative;
-  background-image: url("../images/papyrus-dark.png");
+  color: #fff;
+  color: #fff;
+  background: #949c4e;
+  background: linear-gradient(115deg, rgba(86, 216, 228, 1) 10%, rgba(159, 1, 234, 1) 90%);
   background-size: cover;
   background-position: center center;
   padding: 6em 0;
+  height: 100vh;
 }
 
 @media (min-width: 768px) {
   header.masthead {
     padding: 11em 0;
   }
-}
-
-header.masthead .overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: #212529;
-  opacity: 0.7;
 }
 
 .profileImage {
@@ -120,8 +108,33 @@ section.services {
   opacity: 0.7;
 }
 
-.fab {
+#services {
   padding-top: 70px;
+
+  border-radius: 50%;
+}
+
+#html {
+  padding-right: 30px;
+}
+
+#css {
+  padding-right: 30px;
+}
+
+#js {
+  padding-right: 30px;
+}
+
+#bootstrap {
+  padding-right: 30px;
+}
+
+#node {
+  padding-right: 30px;
+}
+
+#adobe {
   padding-right: 30px;
 }
 
@@ -161,98 +174,68 @@ section.portfolio {
 }
 
 /* Contact Section */
-.contact .contact-icon {
-  height: 8em;
+.card {
+  margin: 0 auto;
 }
 
-.contact .contact-icon i {
-  font-size: 2em;
-}
-
-.contact .contact-icon i:hover {
-  font-size: 6em;
-}
-
-.form-group {
-  padding:5px;
-}
-
-.contact-form {
-  padding: 50px;
-  margin: 30px auto;
-}	
-
-.contact-form h1 {
-
-        margin: 0 0 50px;
-        text-align: center;
-    }
-
-    .contact-form .form-group {
-        margin-bottom: 20px;
-    }
-
-    .contact-form .form-control, .contact-form .btn {
-        min-height: 38px;
-        border-radius: 2px;
-    }
-  
-    input, textarea {
+  input, textarea {
       outline: none;
       border:1px solid #ccc !important;
       box-shadow:none !important;
       } /*Remove bootstrap blue glow */
 
-	.contact-form .form-control:focus {
-		border-color: none;
-		box-shadow: 0
-  }
-  
-    .contact-form .btn-primary {
-        min-width: 250px;
-        background: #000;
-        margin-top: 20px;
-        border: none;
-    }
-
-    .contact-form .btn-primary:hover {
-        color: #fff; 
-    }
-
-    .contact-form .btn-primary i {
-        margin-right: 5px;
-    }
-
-    .contact-form label {
-        opacity: 0.9;
-    }
-
-    .contact-form textarea {
-        resize: vertical;
-    }
-    
-    .bs-example {
-    	margin: 20px;
-    }
+      
+      form {
+        max-width:420px; 
+        margin:25px;
+      }
+      
+      .feedback-input {
+        color:white;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight:500;
+        font-size: 18px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border:2px solid;
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width:100%;
+        box-sizing: border-box;
+        outline:0;
+      }
+      
+      .feedback-input:focus { border:2px solid #CC4949; }
+      
+      textarea {
+        height: 150px;
+        line-height: 150%;
+        resize:vertical;
+      }
+      
 
 /* Footer */
 
 footer {
-
-  background-color: #E8E8E8;
   position: fixed;
   left: 0;
   bottom: 0;
-  color:white;
-  text-align: center;
   width: 100%;
-  padding-bottom: 60px;
+  display: block;
+  padding-bottom: 10px;
   margin: 0;
-  padding-top: 30px;
-  height:70px;
+  padding-top: 20px;
+  height: 60px; 
+  text-align: center;
   font-size: small;
+  background: #E8E8E8;
 }
 
+.footer .fab {
+  float: right;
+}
 
 /* Scroll to Top Button */
 button.scroll-top {
@@ -261,6 +244,7 @@ button.scroll-top {
   visibility: visible;
   bottom: 2%;
   right: 2%;
+  margin-bottom:60px;
   border-radius: 50%;
   border: 1px solid transparent;
   min-height: 50px;

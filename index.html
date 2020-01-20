@@ -37,10 +37,9 @@
         aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ml-auto">
-            <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
@@ -61,10 +60,6 @@
 
   <!-- Masthead -->
   <header class="masthead text-white text-center" id="home">
-    <div class="overlay">
-      <!-- Add a tint to the background image -->
-    </div>
-
     <div class="container">
       <div class="row">
         <div class="col-lg-9 mx-auto">
@@ -128,7 +123,7 @@
             <i class="icon-diamond text-primary m-auto"></i>
           </div>
 
-          <h3>Beautiful Design</h3>
+          <h3>UX Research</h3>
           <i class="devicon-css3-plain"></i>
           <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
             vulputate aliquam.</p>
@@ -139,7 +134,7 @@
             <i class="icon-screen-desktop text-primary m-auto"></i>
           </div>
 
-          <h3>Fully Responsive</h3>
+          <h3>Full Stack Development</h3>
           <i class="devicon-javascript-plain"></i>
           <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
             vulputate aliquam.</p>
@@ -151,20 +146,20 @@
             <i class="icon-support text-primary m-auto"></i>
           </div>
 
-          <h3>Full Support</h3>
+          <h3>Responsive Design</h3>
           <i class="devicon-nodejs-plain-wordmark"></i>
 
           <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
             vulputate aliquam.</p>
         </div>
       </div>
-      <div class="col-md-12">
-        <i class="fab fa-html5 fa-4x"></i>
-        <i class="fab fa-css3-alt fa-4x"></i>
-        <i class="fab fa-js fa-4x"></i>
-        <i class="fab fa-bootstrap fa-4x"></i>
-        <i class="fab fa-node-js fa-4x"></i>
-        <i class="fab fa-adobe fa-4x"></i>
+      <div class="col-md-12" id="services">
+        <i class="fab fa-html5 fa-4x" id="html"></i>
+        <i class="fab fa-css3-alt fa-4x" id="css"></i>
+        <i class="fab fa-js fa-4x" id="js"></i>
+        <i class="fab fa-bootstrap fa-4x" id="bootstrap"></i>
+        <i class="fab fa-node-js fa-4x" id="node"></i>
+        <i class="fab fa-adobe fa-4x" id="adobe"></i>
       </div>
     </div>
     </div>
@@ -178,9 +173,8 @@
         <div class="col-lg-9 mx-auto">
           <div class="portfolio-header text-center">
             <h1 class="heading-text">My Portfolio</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam
-              sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
-              molestiae adipisci, beatae obcaecati.
+            <p class="lead">Below are examples of deployed applications that I have developed and designed. <br>
+              View the github page or repository for further exploration.
             </p>
           </div>
         </div>
@@ -195,14 +189,10 @@
         </div>
 
         <div class="col-lg-6 order-lg-1 portfolio-text my-auto">
-          <h3>Portfolio Item 1</h3>
-          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
-            vulputate aliquam. Nullam vel nibh nec lacus efficitur efficitur et sit amet lacus. Vestibulum in congue
-            ligula, sit amet condimentum elit. Donec turpis dui,
-            tincidunt non quam sit amet, aliquet posuere leo. Nunc id volutpat ligula. Donec nec felis dignissim,
-            feugiat risus id, volutpat ex. Proin vitae luctus elit. Nam placerat euismod risus, porta sagittis neque
-            varius quis. </p>
-          <a href="https://github.com/brittanymorrisdesign" class="devicon-github-plain colored"></i></a>
+          <h3>Password Generator</h3>
+          <p class="lead mb-0">A password generator that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript.
+          </p>
+          <a href="./assets/images/69926268-cbc14880-1481-11ea-9b6d-89646d012009.png" class="devicon-github-plain colored"></i></a>
         </div>
       </div>
 
@@ -213,13 +203,9 @@
         </div>
 
         <div class="col-lg-6 portfolio-text my-auto">
-          <h3>Portfolio Item 2</h3>
-          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
-            vulputate aliquam. Nullam vel nibh nec lacus efficitur efficitur et sit amet lacus. Vestibulum in congue
-            ligula, sit amet condimentum elit. Donec turpis dui,
-            tincidunt non quam sit amet, aliquet posuere leo. Nfunc id volutpat ligula. Donec nec felis dignissim,
-            feugiat risus id, volutpat ex. Proin vitae luctus elit. Nam placerat euismod risus, porta sagittis neque
-            varius quis. </p>
+          <h3>Weather Dashboard</h3>
+          <p class="lead mb-0">A weather dashboard application with search functionality to find current weather 
+            conditions and the future weather outlook for multiple cities. Using third-party APIs to acess data and functionality by making requests with specific parameters to a URL.</p>
           <a href="https://github.com/brittanymorrisdesign" class="devicon-github-plain colored"></i></a>
         </div>
       </div>
@@ -231,7 +217,7 @@
         </div>
 
         <div class="col-lg-6 order-lg-1 portfolio-text my-auto">
-          <h3>Portfolio Item 3</h3>
+          <h3>Trivia Quiz</h3>
           <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
             vulputate aliquam. Nullam vel nibh nec lacus efficitur efficitur et sit amet lacus. Vestibulum in congue
             ligula, sit amet condimentum elit. Donec turpis dui,
@@ -248,79 +234,52 @@
   <!-- Contact Section -->
   <section class="contact text-center bg-light" id="contact">
     <div class="container">
-      <div class="row">
-        <h1 class="heading-text">
-          About Me
-        </h1>
-        </div>
+      <div class="col-md-12">
+        <h1 class="heading-text mb-5">Contact</h1>
       </div>
+    </div>
 
 
-      <!-- Contact Form -->
-      <div class="row">
-        <div class="col-md-12 col-md-offset-2 m-auto">
-          <div class="contact-form">
-            <form action="/examples/actions/confirmation.php" method="post">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="inputName">Name</label>
-                    <input type="text" class="form-control" id="inputName" required>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" required>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputSubject">Subject</label>
-                <input type="text" class="form-control" id="inputSubject" required>
-              </div>
-              <div class="form-group">
-                <label for="inputMessage">Message</label>
-                <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
-              </div>
-            </form>
-          </div>
+    <!-- Contact Form -->
+
+    <div class="card mb-3 col-md-8">
+      <div class="col-md-4">
+        <div class="col-md-3">
+          <a href="https://github.com/brittanymorrisdesign" class="devicon-github-plain colored fa-sm"></i></a>
+          <a href="mailto:brittanymorrisdesign@gmail.com" class="far fa-envelope fa-sm"></i></a>
+          <a href="https://www.linkedin.com/in/brittany-morris-25600b49" class="fab fa-linkedin fa-sm"></i></a>
         </div>
       </div>
+      <form>      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
+      </form>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 
     <!-- end Contact Section -->
 
     <!-- Footer -->
-  <!-- Scroll to top -->
-  <button class="scroll-top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
+    <!-- Scroll to top -->
+    <button class="scroll-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
 
-
-    
-    <footer class="footer py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <p class="text-muted">© Copyright 2020</p>
-
-
-
-            <div class="socials">
-              <a href="https://github.com/brittanymorrisdesign" class="devicon-github-plain colored"></i></a>
-              <a href="mailto:brittanymorrisdesign@gmail.com" class="far fa-envelope"></i></a>
-              <a href="https://www.linkedin.com/in/brittany-morris-25600b49" class="fab fa-linkedin"></i></a>
-            </div>
-          </div>
-          </li>
-          </ul>
-        </div>
-      </div>
-      </div>
+    <footer>
+      <p class="text-muted">Brittany Morris © brittanymorrisdesign.github.io</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/index.js"></script>
