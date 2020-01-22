@@ -67,7 +67,7 @@ section {
 /* Masthead Styles */
 header.masthead {
   position: relative;
-  background-image: url("../images/background8.png");
+  background-image: url("../images/background_dark.png");
   background-size: cover;
   background-position: center center;
   padding: 6em 0;
@@ -85,53 +85,54 @@ header.masthead {
 }
 
 /* Services Section */
+.services-header {
+  color: #1618b8;
+}
+
 section.services {
   position: relative;
-  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-services.jpg");
-  background-size: cover;
-  background-position: center bottom;
+  background-color:#E8E8E8;
 }
 
-.services .overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: #212529;
-  opacity: 0.7;
-}
 
 #portfolioBtn {
+  background-color: #408eff;
+  border-color: #408eff;
   margin-top: 20px;
 }
 
 #services {
   padding-top: 70px;
-  border-radius: 50%;
+  color: #1618b8;
 }
 
 #html {
   padding-right: 30px;
+  color: #1618b8;
 }
 
 #css {
   padding-right: 30px;
+  color: #1618b8;
 }
 
 #js {
+  color: #1618b8;
   padding-right: 30px;
 }
 
 #bootstrap {
+  color: #1618b8;
   padding-right: 30px;
 }
 
 #node {
+  color: #1618b8;
   padding-right: 30px;
 }
 
 #adobe {
+  color: #1618b8;
   padding-right: 30px;
 }
 
@@ -162,12 +163,26 @@ section.services {
   padding-top: 30px;
 }
 
-.btn {
+#githubRepo,
+#submitBtn,
+#viewResume {
   margin: 0 auto;
   cursor: pointer;
   /* Pointer/hand icon */
   outline: none;
   box-shadow: none !important;
+  background-color:#1618b8;
+  border-color:#1618b8;
+}
+
+#viewPage {
+  margin: 0 auto;
+  cursor: pointer;
+  /* Pointer/hand icon */
+  outline: none;
+  box-shadow: none !important;
+  border-color: #1618b8;
+  color: #1618b8;
 }
 
 section.portfolio {
@@ -193,7 +208,7 @@ section.portfolio {
 }
 
 .portfolio .item-3 {
-  background-image: url("../images/bg-showcase-3.png");
+  background-image: url("../images/bg-showcase-10.png");
 }
 
 .portfolio .item-4 {
@@ -296,11 +311,20 @@ footer {
 
 .fab {
   padding-left: 10px;
+  color: white;
 }
 
 .far {
   padding-left: 10px;
+  color: #1618b8;
 }
+.socials,
+.fa-phone,
+.fa-envelope,
+.fa-map-marker {
+  color: #1618b8;
+}
+
 
 /* Scroll to Top Button */
 button.scroll-top {
