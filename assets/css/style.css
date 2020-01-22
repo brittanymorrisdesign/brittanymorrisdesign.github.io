@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 /* The navigation bar */
 .navbar {
   width: 100%;
@@ -33,7 +32,6 @@
 }
 
 /* Global Styles */
-
 h1,
 h2,
 h3,
@@ -81,7 +79,6 @@ header.masthead {
   }
 }
 
-
 .profileImage {
   height: 540px;
 }
@@ -96,13 +93,11 @@ header.masthead {
   color:#212529;
 }
 
-
 section.services {
   position: relative;
   margin-top: 20px;
   background-color:#E8E8E8;
 }
-
 
 #portfolioBtn {
   background-color: 0;
@@ -110,6 +105,11 @@ section.services {
   margin-top: 20px;
   color:white;
   border-width: 2px;
+}
+.order-lg-6 {
+
+padding: 6px !important;
+
 }
 
 #services {
@@ -152,7 +152,6 @@ section.services {
 }
 
 /* Portfolio Section */
-
 #portfolioInfo {
   padding:70px;
 }
@@ -185,15 +184,13 @@ section.services {
   border-color:#1618b8;
 }
 
-
-
-
 #viewPage {
   margin: 0 auto;
   cursor: pointer;
   /* Pointer/hand icon */
   outline: none;
   box-shadow: none !important;
+  margin-right: 5px;
   border-color: #1618b8;
   color: #1618b8;
 }
@@ -202,8 +199,6 @@ section.services {
   background-color:#1618b8;
   color:white;
 }
-
-
 
 section.portfolio {
   padding-bottom: 0;
@@ -238,13 +233,10 @@ section.portfolio {
   padding:  8em;
 }
 
-
-
 /* Contact Section */
 #contact {
   background-color: #E8E8E8;
 }
-
 
 input[type=text] {
   background-color: white;
@@ -280,7 +272,7 @@ textarea {
 /*Remove bootstrap blue glow */
 form {
   max-width: 600px;
-  margin: 25px;
+  margin-right: 35px;
 }
 
 .feedback-input {
@@ -303,8 +295,6 @@ form {
 .feedback-input:focus {
   border: 2px;
 }
-
-
 
 /* Footer */
 footer {
@@ -350,6 +340,7 @@ footer {
 .fa-envelope,
 .fa-map-marker {
   color: #1618b8;
+  text-decoration: none !important; 
 }
 
 .fa-phone { 
@@ -391,4 +382,3 @@ button.scroll-top:focus i {
   outline: 0;
   box-shadow: none !important;
 }
-
