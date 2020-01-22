@@ -28,12 +28,6 @@
   color: white;
 }
 
-@media(max-width: 768px) {
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.7) !important;
-  }
-}
-
 /* Global Styles */
 
 h1,
@@ -71,11 +65,10 @@ section {
 
 /* Masthead Styles */
 header.masthead {
-  position: relative;
-  color: #fff;
+  position: relative
   color: #fff;
   background: #949c4e;
-  background: linear-gradient(115deg, rgba(86, 216, 228, 1) 10%, rgba(159, 1, 234, 1) 90%);
+  background-image: url("../images/background8.png");
   background-size: cover;
   background-position: center center;
   padding: 6em 0;
@@ -109,6 +102,10 @@ section.services {
   left: 0;
   background-color: #212529;
   opacity: 0.7;
+}
+
+#portfolioBtn {
+  margin-top: 20px;
 }
 
 #services {
@@ -161,19 +158,33 @@ section.portfolio {
 }
 
 .portfolio .item-1 {
-  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-showcase-1.jpg");
+  background-image: url("../images/bg-showcase-5.png");
 }
 
 .portfolio .item-2 {
-  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-showcase-2.jpg");
+  background-image: url("../images/bg-showcase-2.png");
 }
 
 .portfolio .item-3 {
-  background-image: url("https://mattdobsonweb.github.io/Basic-Bootstrap-Portfolio/images/bg-showcase-3.jpg");
+  background-image: url("../images/bg-showcase-10.png");
 }
 
 .portfolio .portfolio-text {
   padding: 8em;
+}
+
+
+.portfolio .item-4 {
+  background-image: url("../images/bg-showcase-8.png");
+}
+
+#evenInfo {
+  margin-left: 60px;
+}
+
+#oddInfo {
+  margin-left: 60px;
+  margin-right: 180px;
 }
 
 /* Contact Section */
