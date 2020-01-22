@@ -148,9 +148,19 @@ section.services {
 }
 
 .twoButtons {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
+.builtWith {
+  padding-top: 30px;
+}
+
+.btn {
+  margin: 0 auto;
+  cursor: pointer; /* Pointer/hand icon */
+  outline: none;
+  box-shadow: none !important;
+}
 
 section.portfolio {
   padding-bottom: 0;
@@ -201,16 +211,17 @@ section.portfolio {
   margin: 0 auto;
 }
 
+#contactDetails {
+text-align: left;
+}
+
 input,
 textarea {
   outline: none;
   border: 1px solid #ccc !important;
   box-shadow: none !important;
 }
-
 /*Remove bootstrap blue glow */
-
-
 form {
   max-width: 600px;
   margin: 25px;
@@ -245,7 +256,6 @@ textarea {
 
 
 /* Footer */
-
 footer {
   position: fixed;
   left: 0;
@@ -263,6 +273,24 @@ footer {
 
 .footer .fab {
   float: right;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 20px;
+  height: 60px;
+  display:flex;
+}
+.fab {
+  padding-left: 15px;
+}
+
+.far {
+  padding-left: 15px;
 }
 
 /* Scroll to Top Button */
@@ -299,3 +327,4 @@ button.scroll-top:focus i {
   outline: 0;
   box-shadow: none !important;
 }
+

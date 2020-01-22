@@ -201,6 +201,7 @@
             <a href="https://github.com/brittanymorrisdesign/Homework-6" class="btn btn-primary" id="githubRepo"
               role="button"><i class="fab fa-github"></i> Github Repo</a>
           </div>
+          <p class="builtWith"><i>HTML5, CSS3, Bootstrap, Javascript, jQuery, Server-side APIs</i></p>
         </div>
       </div>
 
@@ -223,30 +224,34 @@
             <a href="https://github.com/brittanymorrisdesign/Homework-3" class="btn btn-primary" id="githubRepo"
               role="button"><i class="fab fa-github"></i> Github Repo</a>
           </div>
-        </div>
-        </div>
-      </div>
-
-      <!-- Portfolio Item 3 -->
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 portfolio-image item-3">
-          <!-- Portfolio Image in here -->
-        </div>
-
-        <div class="col-lg-4 order-lg-1 portfolio-text my-auto" id="oddInfo">
-          <h3>Trivia Quiz</h3>
-          <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula libero vitae
-            vulputate aliquam. Nullam vel nibh nec lacus efficitur efficitur et sit amet lacus. Vestibulum in congue
-            ligula, sit amet condimentum elit. Donec turpis dui,
-            tincidunt non quam sit amet, aliquet posuere leo. </p>
-            <div class="twoButtons">
-              <a href="https://brittanymorrisdesign.github.io/Homework-4/" class="btn btn-outline-primary" id="viewPage"
-                role="button">View Page</a>
-              <a href="https://github.com/brittanymorrisdesign/Homework-4" class="btn btn-primary" id="githubRepo"
-                role="button"><i class="fab fa-github"></i> Github Repo</a>
-            </div>
+          <p class="builtWith"><i>HTML, CSS, Bootstrap, Javascript</i></p>
         </div>
       </div>
+    </div>
+
+    <!-- Portfolio Item 3 -->
+    <div class="row no-gutters">
+      <div class="col-lg-6 order-lg-2 portfolio-image item-3">
+        <!-- Portfolio Image in here -->
+      </div>
+      <div class="col-lg-4 order-lg-1 portfolio-text my-auto" id="oddInfo">
+        <h3>Trivia Quiz</h3>
+        <p class="lead mb-0">A timer-based trivia quiz application that stores high scores client-side. Timer begins
+          immeditately upon starting.
+          Score is calculated by time remaining. Answering quickly and correctly results in a higher score. Answering
+          incorrectly results in a time penalty (for example, 15 seconds are subtracted from time remaining).
+          When time runs out and/or all questions are answered, the user is presented with their final score and asked
+          to enter their initials. Their final score and initials are then stored in localStorage.
+        </p>
+        <div class="twoButtons">
+          <a href="https://brittanymorrisdesign.github.io/Homework-4/" class="btn btn-outline-primary" id="viewPage"
+            role="button">View Page</a>
+          <a href="https://github.com/brittanymorrisdesign/Homework-4" class="btn btn-primary" id="githubRepo"
+            role="button"><i class="fab fa-github"></i> Github Repo</a>
+        </div>
+        <p class="builtWith"><i>Built With: HTML5, CSS3, Bootstrap, JavaScript</i></p>
+      </div>
+    </div>
     </div>
 
     <!-- Portfolio Item 4 -->
@@ -260,12 +265,14 @@
         <p class="lead mb-0">A weather dashboard application with search functionality to find current weather
           conditions and the future weather outlook for multiple cities. Using third-party APIs to acess data and
           functionality by making requests with specific parameters to a URL.</p>
-          <div class="twoButtons">
-            <a href="https://brianp22.github.io/Group-6-Project/index.html" class="btn btn-outline-primary" id="viewPage"
-              role="button">View Page</a>
-            <a href="https://github.com/brianp22/Group-6-Project" class="btn btn-primary" id="githubRepo"
-              role="button"><i class="fab fa-github"></i> Github Repo</a>
-          </div>
+        <div class="twoButtons">
+          <a href="https://brianp22.github.io/Group-6-Project/index.html" class="btn btn-outline-primary" id="viewPage"
+            role="button">View Page</a>
+          <a href="https://github.com/brianp22/Group-6-Project" class="btn btn-primary" id="githubRepo" role="button"><i
+              class="fab fa-github"></i> Github Repo</a>
+        </div>
+        <p class="builtWith"><i>Built With: HTML5, CSS3, Semantic UI Framework, JavaScript, JQuery,
+            Server-side & thiry party API's</i></p>
       </div>
     </div>
   </section>
@@ -289,12 +296,11 @@
               <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
             </form>
           </div>
-          <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+          <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" id="contactDetails">
             <h3>Contact Details</h3>
             <div class="spacer"></div>
             <p class="lead" style="margin-bottom:0px;"><i class="fa fa-map-marker"></i>&nbsp; Philadelphia, PA
             </p>
-
             <p class="lead"><i class="fa fa-phone"></i>&nbsp; 609-203-9357</p>
             <p class="lead"><i class="fa fa-envelope"></i>&nbsp; brittanymorrisdesign@gmail.com</p>
           </div>
@@ -313,7 +319,14 @@
     </div>
     <!-- Footer -->
     <footer>
-      <p class="text-muted">Brittany Morris © brittanymorrisdesign.github.io</p>
+      <div class="container-footer">
+        <div class="flex-item">Brittany Morris © brittanymorrisdesign.github.io</div>
+        <div class="fixed">
+          <a href="https://github.com/brittanymorrisdesign" class="fab fa-github fa-1x"></i></a>
+          <a href="mailto:brittanymorrisdesign@gmail.com" class="far fa-envelope fa-1x"></i></a>
+          <a href="https://www.linkedin.com/in/brittany-morris-25600b49" class="fab fa-linkedin fa-1x"></i></a></div>
+    </div>
+  </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/index.js"></script>
