@@ -152,11 +152,10 @@ section.services {
 }
 
 /* Portfolio Section */
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
 
+#portfolioInfo {
+  padding:70px;
+}
 
 #viewPage {
   margin-right: 10px;
