@@ -22,7 +22,7 @@
 }
 
 .nav-link {
-  scolor: white;
+  color: white;
 }
 
 .navbar-scroll {
@@ -39,13 +39,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Mada', sans-serif;
+  font-family: "Catamaran", sans-serif;
   letter-spacing: 0.1rem;
 }
 
 h1 {
-  font-weight: 600;
-  text-align: center;
+  font-weight: 800;
 }
 
 h3 {
@@ -65,7 +64,6 @@ section {
   margin-right: 0;
 }
 
-
 /* Masthead Styles */
 header.masthead {
   position: relative;
@@ -84,7 +82,6 @@ header.masthead {
 
 .profileImage {
   height: 540px;
-
 }
 
 /* Services Section */
@@ -111,7 +108,6 @@ section.services {
 
 #services {
   padding-top: 70px;
-
   border-radius: 50%;
 }
 
@@ -144,8 +140,18 @@ section.services {
 }
 
 /* Portfolio Section */
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
 #viewPage {
   margin-right: 10px;
+}
+
+.col-lg-6 {
+  padding: 128px;
 }
 
 .twoButtons {
@@ -158,7 +164,8 @@ section.services {
 
 .btn {
   margin: 0 auto;
-  cursor: pointer; /* Pointer/hand icon */
+  cursor: pointer;
+  /* Pointer/hand icon */
   outline: none;
   box-shadow: none !important;
 }
@@ -186,38 +193,33 @@ section.portfolio {
 }
 
 .portfolio .item-3 {
-  background-image: url("../images/bg-showcase-10.png");
+  background-image: url("../images/bg-showcase-3.png");
 }
-
-.portfolio .portfolio-text {
-  padding: 8em;
-}
-
 
 .portfolio .item-4 {
   background-image: url("../images/bg-showcase-8.png");
 }
-
-#evenInfo {
-  margin-left: 60px;
+.portfolio .portfolio-text {
+  padding:  8em;
 }
 
-#oddInfo {
-  margin-left: 60px;
-  margin-right: 180px;
-}
+
 
 /* Contact Section */
+#contact {
+  background-color: 	#F5F5F5;
+}
+
 .card {
   margin: 0 auto;
 }
 
 #phone {
-padding-top: 20px;
+  padding-top: 20px;
 }
 
 #contactDetails {
-text-align: left;
+  text-align: left;
 }
 
 input,
@@ -226,6 +228,7 @@ textarea {
   border: 1px solid #ccc !important;
   box-shadow: none !important;
 }
+
 /*Remove bootstrap blue glow */
 form {
   max-width: 600px;
@@ -288,14 +291,15 @@ footer {
   padding-left: 150px;
   padding-top: 20px;
   height: 60px;
-  display:flex;
+  display: flex;
 }
+
 .fab {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .far {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 /* Scroll to Top Button */
@@ -332,4 +336,4 @@ button.scroll-top:focus i {
   outline: 0;
   box-shadow: none !important;
 }
- 
+
