@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 /* The navigation bar */
 .navbar {
   width: 100%;
@@ -80,6 +81,7 @@ header.masthead {
   }
 }
 
+
 .profileImage {
   height: 540px;
 }
@@ -89,16 +91,25 @@ header.masthead {
   color: #1618b8;
 }
 
+.header-info,
+.mb-0 {
+  color:#212529;
+}
+
+
 section.services {
   position: relative;
+  margin-top: 20px;
   background-color:#E8E8E8;
 }
 
 
 #portfolioBtn {
-  background-color: #408eff;
+  background-color: 0;
   border-color: #408eff;
   margin-top: 20px;
+  color:white;
+  border-width: 2px;
 }
 
 #services {
@@ -175,6 +186,9 @@ section.services {
   border-color:#1618b8;
 }
 
+
+
+
 #viewPage {
   margin: 0 auto;
   cursor: pointer;
@@ -184,6 +198,13 @@ section.services {
   border-color: #1618b8;
   color: #1618b8;
 }
+
+#viewPage:hover {
+  background-color:#1618b8;
+  color:white;
+}
+
+
 
 section.portfolio {
   padding-bottom: 0;
@@ -222,11 +243,22 @@ section.portfolio {
 
 /* Contact Section */
 #contact {
-  background-color: 	#F5F5F5;
+  background-color: #E8E8E8;
 }
 
-.card {
-  margin: 0 auto;
+
+input[type=text] {
+  background-color: white;
+  color:#212529;
+}
+
+input[type="text"], textarea {
+  background-color : white;
+  color:#212529;
+}
+
+.fa-map-marker{
+  padding-top: 20px;
 }
 
 #phone {
@@ -235,12 +267,14 @@ section.portfolio {
 
 #contactDetails {
   text-align: left;
+  margin-top: 15px;
 }
 
 input,
 textarea {
   outline: none;
-  border: 1px solid #ccc !important;
+  border:  none !important;
+  background-color: white !important;
   box-shadow: none !important;
 }
 
@@ -271,11 +305,6 @@ form {
   border: 2px;
 }
 
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
 
 
 /* Footer */
@@ -291,7 +320,7 @@ footer {
   height: 60px;
   text-align: center;
   font-size: small;
-  background: #E8E8E8;
+  background: #f9f9f9;
 }
 
 .footer .fab {
@@ -319,12 +348,15 @@ footer {
   color: #1618b8;
 }
 .socials,
-.fa-phone,
 .fa-envelope,
 .fa-map-marker {
   color: #1618b8;
 }
 
+.fa-phone { 
+  color: #1618b8;
+  padding-top: 20px;
+}
 
 /* Scroll to Top Button */
 button.scroll-top {
