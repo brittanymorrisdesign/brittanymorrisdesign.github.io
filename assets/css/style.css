@@ -21,6 +21,9 @@
   padding-right: 16px;
 }
 
+.nav-link {
+  scolor: white;
+}
 
 .navbar-scroll {
   background-color: rgba(0, 0, 0, 0.7);
@@ -65,9 +68,7 @@ section {
 
 /* Masthead Styles */
 header.masthead {
-  position: relative
-  color: #fff;
-  background: #949c4e;
+  position: relative;
   background-image: url("../images/background8.png");
   background-size: cover;
   background-position: center center;
@@ -82,7 +83,7 @@ header.masthead {
 }
 
 .profileImage {
-  height: 560px;
+  height: 540px;
 
 }
 
@@ -211,6 +212,10 @@ section.portfolio {
   margin: 0 auto;
 }
 
+#phone {
+padding-top: 20px;
+}
+
 #contactDetails {
 text-align: left;
 }
@@ -280,7 +285,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-left: 100px;
+  padding-left: 150px;
   padding-top: 20px;
   height: 60px;
   display:flex;
@@ -327,4 +332,4 @@ button.scroll-top:focus i {
   outline: 0;
   box-shadow: none !important;
 }
-
+ 
