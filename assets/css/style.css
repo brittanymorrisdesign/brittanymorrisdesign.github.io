@@ -81,6 +81,12 @@ header.masthead {
 
 .profileImage {
   height: 540px;
+  width: 100%;
+  height: auto;
+}
+
+.aboutMeInfo {
+  margin: 10px;
 }
 
 /* Services Section */
@@ -161,7 +167,7 @@ padding: 6px !important;
 }
 
 .col-lg-6 {
-  padding: 128px;
+  padding: 10px;
 }
 
 .twoButtons {
