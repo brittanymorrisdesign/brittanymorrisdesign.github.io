@@ -105,6 +105,10 @@ section.services {
   background-color:#E8E8E8;
 }
 
+#portfolioBtn:focus, .btn:active {
+  box-shadow: none; /* Removes blue halo */
+}
+
 #portfolioBtn {
   background-color: 0;
   border-color: #408eff;
@@ -112,10 +116,9 @@ section.services {
   color:white;
   border-width: 2px;
 }
+
 .order-lg-6 {
-
-padding: 6px !important;
-
+  padding: 6px !important;
 }
 
 #services {
@@ -242,6 +245,7 @@ section.portfolio {
 .portfolio .portfolio-text {
   padding:  8em;
 }
+
 
 /* Contact Section */
 #contact {
