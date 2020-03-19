@@ -269,7 +269,7 @@ input[type="text"], textarea {
 input,
 textarea {
   outline: none;
-  border:  none !important;
+  border: none !important;
   background-color: white !important;
   box-shadow: none !important;
 }
@@ -408,18 +408,18 @@ p {
   text-align: center;
 }
 
-.breweries > ul {
+.projects > ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
   grid-gap: 30px;
 }
 
-.breweries > ul > li {
+.projects > ul > li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
 }
 
-.breweries > ul > li > figure {
+.projects > ul > li > figure {
   max-height: 533px;
   overflow: hidden;
   border-top-left-radius: .5rem;
@@ -427,29 +427,29 @@ p {
   position: relative;
 }
 
-.breweries > ul > li > figure > img {
+.projects > ul > li > figure > img {
   width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption {
+.projects > ul > li > figure > figcaption {
   position: absolute;
   bottom: 0;
   background-color: rgba(0,0,0,.7);
   width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption > h3 {
+.projects > ul > li > figure > figcaption > h3 {
   color: white;
   margin-top: 5px;
   font-size: 1.25rem;
 }
 
-.breweries > ul > li > p {
+.projects > ul > li > p {
   font-size: 1rem;
   line-height: 1.5;
   color: #666666;
 }
 
-.breweries > ul > li > a {
+.projects > ul > li > a {
   margin: .5rem;
 }
