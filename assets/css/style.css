@@ -411,6 +411,7 @@ p {
 
 .projects > ul {
   display: grid;
+  padding-right: 30px;
   grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
   grid-gap: 30px;
 }
