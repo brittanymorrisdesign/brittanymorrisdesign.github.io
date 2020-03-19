@@ -84,12 +84,13 @@
             <h1 class="heading-text">
               About Me
             </h1>
-              Brittany Morris is currently enrolled at the University of Pennsylvania's coding bootcamp program,
-              where she will obtain a certificate in Software
-              Development. A graduate from Moore College of Art & Design in Philadelphia, Brittany is an
-              academically trained designer. Currently, she is employed as the lead in-house designer
-              at the University of Pennsylvania School of Nursing.
-            </p>
+          <div class="aboutMe">
+            Brittany Morris is currently enrolled at the University of Pennsylvania's coding bootcamp program,
+            where she will obtain a certificate in Software
+            Development. A graduate from Moore College of Art & Design in Philadelphia, Brittany is an
+            academically trained designer. Currently, she is employed as the lead in-house designer
+            at the University of Pennsylvania School of Nursing.
+          </div>
             <a href="./assets/images/BrittanyMorris_Resume_2020.pdf" class="btn btn-primary" id="viewResume"
               role="button">View Resume</a>
           </div>
@@ -98,7 +99,6 @@
     </div>
   </section>
   <!-- end About Me -->
-
   <!-- Services Section -->
   <section class="services text-center" id="services">
 
@@ -118,7 +118,8 @@
             </div>
             <h3 class="header-info"><i class="fas fa-laptop-code"></i> Front End Dev</h3>
             <i class="devicon-css3-plain"></i>
-            <p class="lead mb-0">Developing data into a graphical interface through the use of HTML, CSS, and JavaScript.</p>
+            <p class="lead mb-0">Developing data into a graphical interface through the use of HTML, CSS, and
+              JavaScript.</p>
           </div>
 
           <div class="col-lg-4">
@@ -128,7 +129,8 @@
 
             <h3 class="header-info"><i class="fas fa-mouse-pointer"></i> UX Design</h3>
             <i class="devicon-javascript-plain"></i>
-            <p class="lead mb-0">Creating products that provide meaningful and relevant experiences to users. This involves integration of design & usability.</p>
+            <p class="lead mb-0">Creating products that provide meaningful and relevant experiences to users. This
+              involves integration of design & usability.</p>
           </div>
           <div class="col-lg-4">
             <div class="service-icon d-flex">
@@ -136,7 +138,8 @@
             </div>
             <h3 class="header-info"><i class="fas fa-code"></i></i> Back End Dev</h3>
             <i class="devicon-nodejs-plain-wordmark"></i>
-            <p class="lead mb-0"> Developing server side applications and everything that communicates between the database and the browser. </p>
+            <p class="lead mb-0"> Developing server side applications and everything that communicates between the
+              database and the browser. </p>
           </div>
         </div>
         <div class="col-md-12" id="services">
@@ -151,33 +154,21 @@
     </div>
   </section>
   <!-- end Services Section -->
-
-  <!-- Portfolio Section -->
-  <section class="portfolio bg-light" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-          <div class="portfolio-header text-center">
-            <h1 class="heading-text">My Portfolio</h1>
-            <p class="lead">Below are examples of deployed applications that I have developed and designed. <br>
-              View the github page or repository for further exploration.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid p-0 bg-white">
-      <!-- Portfolio Item 1 -->
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 portfolio-image item-1">
-          <!-- Portfolio Image in here -->
-        </div>
-        <div class="col-lg-6 order-lg-1 portfolio-text my-auto" id="portfolioInfo">
-          <h3>Weather Dashboard</h3>
-          <p class="lead mb-0">
+  <div class="container-fluid">
+    <section class="breweries" id="breweries">
+      <ul>
+        <li>
+          <figure>
+            <!-- Project 1 -->
+            <img src="./assets/images/bg-showcase-5.png" alt="Several hands holding beer glasses">
+            <figcaption>
+              <h3>Weather Dashboard</h3>
+            </figcaption>
+          </figure>
+          <p>
             A weather dashboard application with search functionality to find current weather
             conditions and the future weather outlook for multiple cities. Using third-party APIs to acess data and
-            functionality by making requests with specific parameters to a URL.</p>
+            functionality by making requests with specific parameters to a URL.
           </p>
           <div class="twoButtons">
             <a href="https://brittanymorrisdesign.github.io/Homework-6/" class="btn btn-outline-primary" id="viewPage"
@@ -185,18 +176,39 @@
             <a href="https://github.com/brittanymorrisdesign/Homework-6" class="btn btn-primary" id="githubRepo"
               role="button"><i class="fab fa-github"></i> Github Repo</a>
           </div>
-          <p class="builtWith"><i>HTML5, CSS3, Bootstrap, Javascript, jQuery, Server-side APIs</i></p>
-        </div>
-      </div>
-
-      <!-- Portfolio Item 2 -->
-      <div class="row no-gutters">
-        <div class="col-lg-6 portfolio-image item-2">
-          <!-- Portfolio Image in here -->
-        </div>
-        <div class="col-lg-6 portfolio-text my-auto" id="portfolioInfo">
-          <h3>Password Generator</h3>
-          <p class="lead mb-0">
+          <div class="builtWith">HTML, CSS, Bootstrap, Javascript, jQuery, Server-side API's</div>
+        </li>
+        <li>
+          <figure>
+            <!-- Project 2 -->
+            <img src="./assets/images/bg-showcase-14.png" alt="Several friends doing a toast">
+            <figcaption>
+              <h3>Template Engine: Employee Summary</h3>
+            </figcaption>
+          </figure>
+          <p>
+            A software engineering team generator command line application. 
+            The application will prompt the user for information about the team manager then 
+            team members. The user can input any number of team members, and 
+            they may be a mix of engineers and interns. 
+          </p>
+          <div class="twoButtons">
+            <a href="https://user-images.githubusercontent.com/44029053/74109597-c738a080-4b52-11ea-969a-ee9f906d035b.gif" class="btn btn-outline-primary" id="viewPage"
+              role="button">View Page</a>
+            <a href="https://github.com/brittanymorrisdesign/Homework-10" class="btn btn-primary" id="githubRepo"
+              role="button"><i class="fab fa-github"></i> Github Repo</a>
+          </div>
+          <div class="builtWith">Node.js, Javascript, npm modules</div>
+        </li>
+        <li>
+          <figure>
+            <!-- Project 3 -->
+            <img src="./assets/images/bg-showcase-9.png" alt="Three different glasses of beer">
+            <figcaption>
+              <h3>Password Generator</h3>
+            </figcaption>
+          </figure>
+          <p>
             A password generator that generates a random password based
             on user-selected criteria.This app will run in the browser and feature
             dynamically updated HTML and CSS powered by JavaScript.
@@ -207,59 +219,73 @@
             <a href="https://github.com/brittanymorrisdesign/Homework-3" class="btn btn-primary" id="githubRepo"
               role="button"><i class="fab fa-github"></i> Github Repo</a>
           </div>
-          <p class="builtWith"><i>HTML, CSS, Bootstrap, Javascript</i></p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Item 3 -->
-    <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 portfolio-image item-3">
-        <!-- Portfolio Image in here -->
-      </div>
-      <div class="col-lg-6 order-lg-1 portfolio-text my-auto" id="portfolioInfo">
-        <h3>Trivia Quiz</h3>
-        <p class="lead mb-0">A timer-based trivia quiz application that stores high scores client-side.
-          The score is calculated by correct or incorrect answers, along with the remaining time.
-          When all questions are answered, the user is presented with their final score and asked
-          to enter their initials. Their final score and initials are then stored in localStorage.
-        </p>
-        <div class="twoButtons">
-          <a href="https://brittanymorrisdesign.github.io/Homework-4/" class="btn btn-outline-primary" id="viewPage"
-            role="button">View Page</a>
-          <a href="https://github.com/brittanymorrisdesign/Homework-4" class="btn btn-primary" id="githubRepo"
-            role="button"><i class="fab fa-github githubIcon"></i> Github Repo</a>
-        </div>
-        <p class="builtWith"><i>Built With: HTML5, CSS3, Bootstrap, JavaScript</i></p>
-      </div>
-    </div>
-    </div>
-    </div>
-
-    <!-- Portfolio Item 4 -->
-    <div class="row no-gutters">
-      <div class="col-lg-6 portfolio-image item-4">
-        <!-- Portfolio Image in here -->
-      </div>
-      <div class="col-lg-6 portfolio-text my-auto" id="portfolioInfo">
-        <h3>Traffic Jam</h3>
-        <p class="lead mb-0">
-          Traffic Jam is a navigation application with some additional features that revolve around travelling to
-          Pennovation Center for the coding bootcamp.
-        </p>
-        <div class="twoButtons">
-          <a href="https://brianp22.github.io/Group-6-Project/index.html" class="btn btn-outline-primary" id="viewPage"
-            role="button">View Page</a>
-          <a href="https://github.com/brianp22/Group-6-Project" class="btn btn-primary" id="githubRepo" role="button"><i
-              class="fab fa-github"></i> Github Repo</a>
-        </div>
-        <p class="builtWith"><i>Built With: HTML5, CSS3, Semantic UI Framework, JavaScript, JQuery,
-            Server-side & thiry party API's</i></p>
-      </div>
-    </div>
-    </div>
-  </section>
-  <!-- end Portfolio Section -->
+          <div class="builtWith">HTML5, CSS3, Bootstrap, Javascript, jQuery, Server-side APIs</div>
+        </li>
+        <li>
+          <figure>
+            <!-- Project 4 -->
+            <img src="./assets/images/bg-showcase-16.png" alt="Several hands holding beer glasses">
+            <figcaption>
+              <h3>Traffic Jam</h3>
+            </figcaption>
+          </figure>
+          <p>
+            Traffic Jam is a navigation application with features that revolve around traveling to
+            Pennovation Center for the coding bootcamp. A weather forecast along with a Spotify playlist have been added to help users prepare for their commute.
+          </p>
+          <div class="twoButtons">
+            <a href="https://brianp22.github.io/Group-6-Project/index.html" class="btn btn-outline-primary"
+              id="viewPage" role="button">View Page</a>
+            <a href="https://github.com/brianp22/Group-6-Project" class="btn btn-primary" id="githubRepo"
+              role="button"><i class="fab fa-github"></i> Github Repo</a>
+          </div>
+          <div class="builtWith">HTML, CSS, Semantic UI Framework, JavaScript, jQuery,
+            Server-side & thiry party API's</div>
+        </li>
+        <li>
+          <figure>
+            <!-- Project 5 -->
+            <img src="./assets/images/bg-showcase-15.png" alt="Several hands holding beer glasses">
+            <figcaption>
+              <h3>Burger Time</h3>
+            </figcaption>
+          </figure>
+          <p>
+            A burger logger  that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app displays the burger on the 
+            left side of the page, waiting to be devoured. 
+          </p>
+          <div class="twoButtons">
+            <a href="https://peaceful-ocean-40242.herokuapp.com" class="btn btn-outline-primary" id="viewPage"
+              role="button">View Page</a>
+            <a href="https://github.com/brittanymorrisdesign/Homework-6" class="btn btn-primary" id="githubRepo"
+              role="button"><i class="fab fa-github"></i> Github Repo</a>
+          </div>
+          <div class="builtWith">Node.js, Express.js, Handlebars.js, Javascript, mySQL</div>
+        </li>
+        <li>
+          <figure>
+            <!-- Project 6 -->
+            <img src="./assets/images/bg-showcase-7.png" alt="Several hands holding beer glasses">
+            <figcaption>
+              <h3>Trivia Quiz</h3>
+            </figcaption>
+          </figure>
+          <p>
+            A timer-based trivia quiz application that stores high scores client-side.
+            The score is calculated by correct or incorrect answers, along with the remaining time.
+           Final score and initials are stored in localStorage.
+          </p>
+          <div class="twoButtons">
+            <a href="https://brittanymorrisdesign.github.io/Homework-4/" class="btn btn-outline-primary" id="viewPage"
+              role="button">View Page</a>
+            <a href="https://github.com/brittanymorrisdesign/Homework-4" class="btn btn-primary" id="githubRepo"
+              role="button"><i class="fab fa-github githubIcon"></i> Github Repo</a>
+          </div>
+          <div class="builtWith">HTML, CSS, Bootstrap, JavaScript</div>
+        </li>
+      </ul>
+    </section>
+  </div>
 
   <!-- Contact Section -->
   <section class="contact text-center" id="contact">
@@ -316,4 +342,5 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/index.js"></script>
 </body>
+
 </html>

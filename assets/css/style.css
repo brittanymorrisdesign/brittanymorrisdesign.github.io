@@ -48,6 +48,8 @@ h1 {
 
 h3 {
   font-weight: 600;
+  padding: 12px;
+  text-align: center;
 }
 
 .heading-text {
@@ -61,6 +63,11 @@ section {
 .no-gutter {
   margin-left: 0;
   margin-right: 0;
+}
+
+.aboutMe {
+  color: #666666;
+  padding-bottom: 15px;
 }
 
 /* Masthead Styles */
@@ -94,9 +101,12 @@ header.masthead {
   color: #1618b8;
 }
 
-.header-info,
-.mb-0 {
+.header-info{
   color:#212529;
+}
+
+.mb-0 {
+  color: #666666;
 }
 
 section.services {
@@ -173,14 +183,21 @@ section.services {
   padding: 10px;
 }
 
-.twoButtons {
-  margin-top: 30px;
-}
 
 .builtWith {
-  padding-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
 }
 
+.twoButtons {
+text-align: center;
+padding-top: 10px;
+padding-bottom: 20px;
+
+}
 .githubIcon {
   padding-right:5px;
 }
@@ -198,7 +215,6 @@ section.services {
 }
 
 #viewPage {
-  margin: 0 auto;
   cursor: pointer;
   /* Pointer/hand icon */
   outline: none;
@@ -219,31 +235,6 @@ section.portfolio {
 
 .portfolio-header {
   margin-bottom: 5em;
-}
-
-.portfolio .portfolio-image {
-  min-height: 30rem;
-  background-size: cover;
-  background-position: center center;
-}
-
-.portfolio .item-1 {
-  background-image: url("../images/bg-showcase-5.png");
-}
-
-.portfolio .item-2 {
-  background-image: url("../images/bg-showcase-2.png");
-}
-
-.portfolio .item-3 {
-  background-image: url("../images/bg-showcase-10.png");
-}
-
-.portfolio .item-4 {
-  background-image: url("../images/bg-showcase-8.png");
-}
-.portfolio .portfolio-text {
-  padding:  8em;
 }
 
 
@@ -287,6 +278,12 @@ textarea {
 form {
   max-width: 600px;
   margin-right: 35px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
 .feedback-input {
@@ -395,4 +392,64 @@ button.scroll-top:focus i {
 .scroll-top:focus {
   outline: 0;
   box-shadow: none !important;
+}
+
+/* Portfolio */
+
+ul {
+  list-style-type: none;
+}
+ 
+.container-fluid {
+  margin: auto 0;
+}
+
+p {
+  text-align: center;
+}
+
+.breweries > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+  grid-gap: 30px;
+}
+
+.breweries > ul > li {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+}
+
+.breweries > ul > li > figure {
+  max-height: 533px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.breweries > ul > li > figure > img {
+  width: 100%;
+}
+
+.breweries > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+
+.breweries > ul > li > figure > figcaption > h3 {
+  color: white;
+  margin-top: 5px;
+  font-size: 1.25rem;
+}
+
+.breweries > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.breweries > ul > li > a {
+  margin: .5rem;
 }
