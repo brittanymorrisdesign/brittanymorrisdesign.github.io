@@ -266,11 +266,6 @@ input[type="text"], textarea {
   margin-top: 15px;
 }
 
-.contactTitle {
-text-align: left;
-}
-
-
 input,
 textarea {
   outline: none;
@@ -362,8 +357,13 @@ footer {
 
 .socialsEnvelope {
 padding-left: 5px;
+
 }
 
+.socialsLinkedin {
+
+
+}
 .fa-phone { 
   color: #1618b8;
   padding-top: 20px;
@@ -415,6 +415,7 @@ ul {
 }
 
 p {
+  text-align: center;
   padding: 4px;
 }
 
