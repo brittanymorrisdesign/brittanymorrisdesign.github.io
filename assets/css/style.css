@@ -183,7 +183,6 @@ section.services {
   padding: 10px;
 }
 
-
 .builtWith {
   padding-top: 5px;
   padding-bottom: 15px;
@@ -193,11 +192,11 @@ section.services {
 }
 
 .twoButtons {
-text-align: center;
-padding-top: 10px;
-padding-bottom: 20px;
-
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
+
 .githubIcon {
   padding-right:5px;
 }
@@ -213,6 +212,12 @@ padding-bottom: 20px;
   background-color:#1618b8;
   border-color:#1618b8;
 }
+
+#viewResume:hover {
+  background-color: white;
+  color: #1618b8;
+}
+
 
 #viewPage {
   cursor: pointer;
@@ -360,10 +365,6 @@ padding-left: 5px;
 
 }
 
-.socialsLinkedin {
-
-
-}
 .fa-phone { 
   color: #1618b8;
   padding-top: 20px;
@@ -415,7 +416,6 @@ ul {
 }
 
 p {
-  text-align: center;
   padding: 4px;
 }
 
