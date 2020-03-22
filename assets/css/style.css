@@ -70,6 +70,15 @@ section {
   padding-bottom: 15px;
 }
 
+p {
+  text-align: center;
+}
+
+.aboutMeButtons {
+  margin-top: 10px;
+  display: block;
+}
+
 /* Masthead Styles */
 header.masthead {
   position: relative;
@@ -217,7 +226,6 @@ section.services {
   background-color: white;
   color: #1618b8;
 }
-
 
 #viewPage {
   cursor: pointer;
