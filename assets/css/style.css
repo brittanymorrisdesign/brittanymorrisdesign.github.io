@@ -175,6 +175,11 @@ section.services {
   padding-right: 30px;
 }
 
+#react{
+  color: #1618b8;
+  padding-right: 30px;
+}
+
 .services .service-icon i:hover {
   font-size: 6em;
 }
