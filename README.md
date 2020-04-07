@@ -1,12 +1,12 @@
-# Homework-2
+# Portfolio
+Brittany Morris Design
 
-Responsive Portfolio using bootsrap to display the work created during the 6 month bootcamp progam.
+https://brittanymorrisdesign.github.io/ </br>
 
-Pages consist of:
-about.html
-portfolio.html
-contanct.html
-index.html
+# Objective
+Create a responsive portfolio using bootstrap to display the work created during the bootcamp progam. </br>
 
-
-
+# Technologies Used
+* HTML
+* CSS
+* Bootstrap
