@@ -50,6 +50,7 @@ h3 {
   font-weight: 600;
   padding: 12px;
   text-align: center;
+  padding-top: 5px;
 }
 
 h4 {
@@ -59,7 +60,10 @@ h4 {
 
 .heading-text {
   font-size: 60px;
-  letter-spacing: 2px;
+}
+
+.container {
+  letter-spacing: 1px;
 }
 
 section {
@@ -154,6 +158,12 @@ section.services {
   padding-top: 70px;
   color: #1618b8;
 }
+
+#tools {
+  max-width: 100%;
+  height: auto;
+}
+
 
 #html {
   padding-right: 30px;
