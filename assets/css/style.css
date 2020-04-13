@@ -474,7 +474,8 @@ top of each other instead of next to each other */
 @media only screen and (max-width: 600px) {
   .projects {
     grid-template-columns: 80%; 
-    margin-right: 20px;
+    margin-right: 20px;   
+    margin-left: 20px;
     padding-top: 7px;
     width: 100%;
   }
