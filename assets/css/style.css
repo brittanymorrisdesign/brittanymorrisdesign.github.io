@@ -162,6 +162,7 @@ section.services {
 #tools {
   max-width: 100%;
   height: auto;
+
 }
 
 
@@ -244,6 +245,7 @@ section.services {
   outline: none;
   box-shadow: none !important;
   background-color:#1618b8;
+  margin-top: 8px;
   border-color:#1618b8;
 }
 
@@ -258,6 +260,7 @@ section.services {
   outline: none;
   box-shadow: none !important;
   margin-right: 5px;
+  margin-top: 8px;
   border-color: #1618b8;
   color: #1618b8;
 }
@@ -273,6 +276,24 @@ section.portfolio {
 
 .portfolio-header {
   margin-bottom: 5em;
+}
+
+/* Responsive Buttons */
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
 }
 
 
@@ -323,6 +344,7 @@ form {
     width: 100%;
   }
 }
+
 
 .feedback-input {
   color: white;
@@ -467,3 +489,12 @@ p {
   margin-right: 50px;
   padding-top: 7px;
 }
+
+@media only screen and (max-width: 800px) {
+  .projects {
+    grid-template-columns: 80%; 
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 7px;
+  }
+  }
