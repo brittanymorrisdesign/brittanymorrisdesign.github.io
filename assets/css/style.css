@@ -96,7 +96,7 @@ header.masthead {
   background-size: cover;
   background-position: center center;
   padding: 6em 0;
-  height: 100vh;
+  height: 630px;
 }
 
 @media (min-width: 768px) {
@@ -145,7 +145,7 @@ section.services {
 #portfolioBtn {
   background-color: 0;
   border-color: #408eff;
-  margin-top: 20px;
+  margin-top: 30px;
   color:white;
   border-width: 2px;
 }
