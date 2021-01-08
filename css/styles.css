@@ -59,6 +59,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   margin: 5px;
 }
 .projectDescription {
+  margin-top: 10px;
   text-align: center;
   font-size: 12px;
 }
