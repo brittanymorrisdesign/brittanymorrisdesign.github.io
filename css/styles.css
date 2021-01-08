@@ -58,6 +58,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   padding: 10px;
   margin: 5px;
 }
+.projectDescription {
+  text-align: center;
+  font-size: 12px;
+}
 
 .aboutMeButtons {
   margin-top: 30px;
